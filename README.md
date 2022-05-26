@@ -47,4 +47,4 @@ THIS APPLICATION HAS THE FOLLOWING PARAMETERS & FUNCTIONALITY:
    * Uses Bulma CSS frameworks
    * Uses local stroage to store persistent data (user workout time & routines)
    * Has polished UI
-   * Includes user input functionality for searching API's (playlist searching & Reddit channel searching) 
+   * Includes user input functionality for searching API's (Spotify playlist searching & Reddit channel searching) 
