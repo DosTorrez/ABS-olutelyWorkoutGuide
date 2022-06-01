@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  background-color: rgb(138, 189, 255);
+  background-position: 100%;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.workout-info-container {
+  justify-content: left;
+  position: relative;
+  float: left;
+}
+
+.card-footer {
+  justify-content: right;
+}
+
+.reddit-info {
+  justify-content: center;
+  display: block;
+  position: relative;
+  float: center;
+}
+
+.spotify-container {
+  justify-content: right;
+  position: relative;
+  float: right;
+}
