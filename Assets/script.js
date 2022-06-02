@@ -4,7 +4,7 @@ var date = null;
 
 var update = function () {
   date = moment(new Date());
-  dateTime.html(date.format("dddd MMMM Do YYYY, hh:mm:ss"));
+  dateTime.html(date.format("dddd MMMM Do YYYY, hh:mm"));
 };
 
 $(document).ready(function () {
