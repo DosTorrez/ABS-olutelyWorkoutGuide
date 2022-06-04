@@ -4,7 +4,131 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Links-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="./Assets/style.css" />
+
     <title>Project Gym Rat</title>
   </head>
-  <body></body>
+
+  <body>
+    <!--title of application-->
+<<<<<<< HEAD
+    <header class="project-title">
+=======
+    <header>
+>>>>>>> 10ac0e0b7a00d81e01396c27223efdbc6392346d
+      <h1 class="title is-1">Project Gym Rat</h1>
+    </header>
+
+    <!--left column for workouts and workout times-->
+
+    <aside class="workout-info-container">
+      <p class="date-time, subtitle is-4">Date & Time:</p>
+      <div id="dateTime"></div>
+      <!--Workout input cards-->
+<<<<<<< HEAD
+      <h2 class="subtitle is-5" id="workout-log">Workout Log : </h2>
+=======
+      <h2 class="subtitle is-5">Workout Log : </h2>
+>>>>>>> 10ac0e0b7a00d81e01396c27223efdbc6392346d
+      <div class="card">
+        <header class="card-header">
+          <p class="card-header-title">Workout #1</p>
+          <button class="card-header-icon" aria-label="more options">
+            <span class="icon">
+              <i class="fas fa-angle-down" aria-hidden="true"></i>
+            </span>
+          </button>
+        </header>
+        <div class="card-content">
+          <input class="input" type="text" placeholder="Type Workout Here" />
+        </div>
+        <footer class="card-footer">
+          <button class="button is-success is-outlined">Save</button>
+          <button class="button is-warning is-outlined">Edit</button>
+          <button class="button is-danger is-outlined">Delete</button>
+        </footer>
+      </div>
+
+      <div class="card">
+        <header class="card-header">
+          <p class="card-header-title">Workout #2</p>
+          <button class="card-header-icon" aria-label="more options">
+            <span class="icon">
+              <i class="fas fa-angle-down" aria-hidden="true"></i>
+            </span>
+          </button>
+        </header>
+        <div class="card-content">
+          <input class="input" type="text" placeholder="Type Workout Here" />
+        </div>
+        <footer class="card-footer">
+          <button class="button is-success is-outlined">Save</button>
+          <button class="button is-warning is-outlined">Edit</button>
+          <button class="button is-danger is-outlined">Delete</button>
+        </footer>
+      </div>
+
+      <div class="card">
+        <header class="card-header">
+          <p class="card-header-title">Workout #3</p>
+          <button class="card-header-icon" aria-label="more options">
+            <span class="icon">
+              <i class="fas fa-angle-down" aria-hidden="true"></i>
+            </span>
+          </button>
+        </header>
+        <div class="card-content">
+          <input class="input" type="text" placeholder="Type Workout Here" />
+        </div>
+        <footer class="card-footer">
+          <button class="button is-success is-outlined">Save</button>
+          <button class="button is-warning is-outlined">Edit</button>
+          <button class="button is-danger is-outlined">Delete</button>
+        </footer>
+      </div>
+      <!--workout time input-->
+      <h2 id="workout-time" class="subtitle is-5">Calculate Workout Time:</h2>
+      <form class="box">
+        <div class="field">
+          <label class="label">Start Time : </label>
+          <div class="control">
+            <input class="input" type="email" placeholder="12:00 pm">
+          </div>
+        </div>
+      
+        <div class="field">
+          <label class="label">End Time : </label>
+          <div class="control">
+            <input class="input" type="password" placeholder= "2:00 pm">
+          </div>
+        </div>
+      
+        <button id="calculateBtn" class="button is-info">Calculate Workout Time</button>
+      </form>
+    </aside>
+
+    <!--center column for Reddit search & results-->
+    <div class="reddit-info">
+      <h2 class="subtitle is-5">Search For Workout Tips & Routines!</h2>
+      <input class="input is-primary" type="text" placeholder="Type search here" />
+      <button class="button is-primary">Search</button>
+      <div class="reddit-results">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, animi alias odio qui exercitationem labore quasi porro repudiandae blanditiis sequi reprehenderit accusantium dolore, doloribus tenetur quis voluptas unde suscipit ratione.</div>
+    </div>
+
+    <!--right column for Spotify playlist functionality-->
+    <aside class="spotify-container">
+      <h2 class="subtitle is-5">Spotify</h2>
+      <div class ="spotify-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem unde sapiente architecto minima temporibus adipisci id repellat odio velit corrupti exercitationem illum officiis voluptatum, ullam facere neque eius? Enim, deleniti!</div>
+    </aside>
+  </body>
+  <!--Links-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src = "./Assets/script.js"></script>
+  </script>
 </html>
