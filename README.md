@@ -43,7 +43,7 @@ WHEN I save the time to local storage
 THEN I will be able to see the total workout time presented on the page
 
 THIS APPLICATION HAS THE FOLLOWING PARAMETERS & FUNCTIONALITY:
-   * Has 2 server API’s (Spotify & Reddit API's)
+   * Has 2 server API’s (Spotify & wger.de API's)
    * Uses Bulma CSS frameworks
    * Uses local stroage to store persistent data (user workout time & routines)
    * Has polished UI
