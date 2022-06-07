@@ -135,3 +135,4 @@ var renderExercise = function (exercises) {
   }
 };
 exerciseBtn.onclick = formSubmitHandler;
+
