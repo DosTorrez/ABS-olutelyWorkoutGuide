@@ -1,6 +1,6 @@
 # Abs-olutely Workout Guide
 
-Live Link: 
+Live Link: https://dostorrez.github.io/ABS-olutelyWorkoutGuide/
 
 USER STORY: 
   * As a gym goer/user, 
