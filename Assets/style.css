@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(138, 189, 255);
+}
+
 h1 {
   text-align: center;
   background-color: rgb(138, 189, 255);
@@ -35,22 +39,31 @@ span {
 }
 
 .project-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 30px;
 }
 
-#dateTime {
-  font-size: 20px;
+#app-title {
+  margin-bottom: -10px;
+}
+
+.dateTime {
+  font-size: 30px;
+  color: aliceblue;
 }
 
 .workout-info-container {
   justify-content: left;
   position: relative;
   float: left;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
 #workout-log {
   margin-top: 20px;
+  align-self: center;
 }
 
 .card-content {
@@ -72,25 +85,52 @@ span {
   padding: 20px;
 }
 
-.reddit-info {
+.exercise-info {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-content: center;
   flex-direction: column;
-  position: relative;
   float: center;
   margin-left: 410px;
-  max-width: 750px;
+  max-width: 650px;
 }
 
-.spotify-container {
+#exercise-title {
   display: flex;
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+#exercise-button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.exercise-card {
+  display: flex;
+  justify-content: space-between;
   flex-direction: column;
-  justify-content: right;
-  position: relative;
+  align-content: center;
+  background-color: white;
+  margin: 30px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.nameStyling {
+  font-size: 30px;
+  color: rgb(0, 190, 165);
+}
+
+.weather-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: column;
   float: right;
-  margin-left: 1250px;
-  margin-right: 30px;
-  margin-top: -1230px;
+  margin-left: 1160px;
+  margin-right: 50px;
+  margin-top: -1160px;
 }
 
 #workout-time {
