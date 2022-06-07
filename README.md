@@ -24,7 +24,7 @@ THEN I am redirected to Spotify to login and listen
 
 WHEN I search for fitness tips
 
-THEN I will be presented with results from Reddit
+THEN I will be presented with results from an exercise API
 
 WHEN I log my workout routines for the day
 
