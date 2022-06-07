@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+html {
+  background-color: rgb(138, 189, 255);
+  height: 100%;
+}
+
 body {
   background-color: rgb(138, 189, 255);
 }
@@ -45,18 +50,13 @@ span {
 }
 
 #app-title {
-  background-size: 100%;
-  background: url(../Assets/images/workout-banner.jpg);
-
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
   min-height: 150px;
-  margin-bottom: -10px;
+  margin-bottom: -40px;
+  margin-top: 30px;
 }
 
 .dateTime {
-  font-size: 30px;
+  font-size: 35px;
   color: aliceblue;
 }
 
@@ -91,6 +91,15 @@ span {
   padding: 20px;
 }
 
+.card-header {
+  background-color: rgb(195, 229, 145);
+}
+
+.card-header-title {
+  display: flex;
+  align-items: center;
+}
+
 .exercise-info {
   display: flex;
   justify-content: space-between;
@@ -99,6 +108,7 @@ span {
   float: center;
   margin-left: 410px;
   max-width: 650px;
+  margin-top: 55px;
 }
 
 #exercise-title {
@@ -107,9 +117,14 @@ span {
   margin-bottom: 30px;
 }
 
+#exercise-input {
+  font-size: 20px;
+}
+
 #exercise-button {
   margin-top: 10px;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .exercise-card {
@@ -118,29 +133,32 @@ span {
   flex-direction: column;
   align-content: center;
   background-color: white;
+  opacity: 0.7;
   margin: 30px;
   padding: 10px;
   border-radius: 8px;
+  padding: 25px;
 }
 
 .nameStyling {
   font-size: 30px;
   color: rgb(0, 190, 165);
+  align-self: center;
 }
 
 .weather-container {
   display: flex;
-  justify-content: space-between;
-  align-content: center;
   flex-direction: column;
   float: right;
-  margin-left: 1160px;
+  justify-content: right;
+  margin-left: 1140px;
   margin-right: 50px;
-  margin-top: -1160px;
+  margin-top: -1300px;
 }
 
 #workout-time {
   margin-top: 40px;
+  font-size: 25px;
 }
 
 .box {
