@@ -108,11 +108,12 @@ saveBtn.addEventListener("click", function (event) {
 
   var startTime = document.querySelector("#startInput").value;
   var endTime = document.querySelector("#endInput").value;
-  var results = document.querySelector("#subResult").value;
+  var results = document.querySelector("#subResult").textContent;
 
   localStorage.setItem("startInput", startTime);
   localStorage.setItem("endInput", endTime);
   localStorage.setItem("result", results);
+  // console.log(results);
 
   //print times on webpage
 
