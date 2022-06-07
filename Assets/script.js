@@ -73,6 +73,7 @@ saveBtn.addEventListener("click", function (event) {
     userEndSpan.textContent = end;
   }
 });
+
 //start of exercise API code
 //functionality for exercise search input
 var formSubmitHandler = function (event) {
@@ -131,7 +132,7 @@ var renderExercise = function (exercises) {
     var description = exercises[i].description;
     var descriptionEl = document.createElement("div");
     descriptionEl.setAttribute("class", "descriptionStyling");
-    descriptionEl.textContent = description;
+    descriptionEl.innerHTML = description;
     exerciseCard.append(descriptionEl);
   }
 };
