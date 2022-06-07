@@ -39,11 +39,12 @@ span {
 }
 
 #app-title {
-  margin-bottom: -10px;
   background: url(../Assets/images/workout-banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   min-height: 150px;
+  margin-bottom: -10px;
 }
 
 .dateTime {
