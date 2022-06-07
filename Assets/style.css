@@ -31,13 +31,6 @@ span {
   text-align: center;
 }
 
-#banner {
-  background: url(../Assets/images/workout-banner.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 150px;
-}
-
 .project-title {
   display: flex;
   flex-direction: column;
@@ -47,6 +40,10 @@ span {
 
 #app-title {
   margin-bottom: -10px;
+  background: url(../Assets/images/workout-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 150px;
 }
 
 .dateTime {
@@ -59,7 +56,6 @@ span {
   position: relative;
   float: left;
   margin-left: 50px;
-  margin-left: 30px;
 }
 
 #workout-log {
@@ -112,7 +108,7 @@ span {
   justify-content: space-between;
   flex-direction: column;
   align-content: center;
-  background-color:white;
+  background-color: white;
   margin: 30px;
   padding: 10px;
   border-radius: 8px;
