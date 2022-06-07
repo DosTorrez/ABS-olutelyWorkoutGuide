@@ -1,15 +1,16 @@
 # ProjectGymRat
 
-Live Link: 
+Live Link:
 
-USER STORY: 
-  * As a gym rat/user, 
-  * I want an application that allows me to search for music,
-  * while being able to search & pull up fitness tips from the internet,
-  * so that I can guide myself through a successful workout,
-  * I also want to log my workout routine and total workout time,
-  * so that I can track my daily fitness/progress
- 
+USER STORY:
+
+- As a gym rat/user,
+- I want an application that allows me to search for music,
+- while being able to search & pull up fitness tips from the internet,
+- so that I can guide myself through a successful workout,
+- I also want to log my workout routine and total workout time,
+- so that I can track my daily fitness/progress
+
 ACCEPTANCE CRITERIA:
 
 GIVEN a fitness tracker/guide with a music player
@@ -43,8 +44,9 @@ WHEN I save the time to local storage
 THEN I will be able to see the total workout time presented on the page
 
 THIS APPLICATION HAS THE FOLLOWING PARAMETERS & FUNCTIONALITY:
-   * Data from 2 server API’s (Open Weather & wger.de API's)
-   * Uses Bulma CSS frameworks
-   * Uses local stroage to store persistent data (user workout time & routines)
-   * Polished UI
-   * Includes user input functionality for searching API's (Spotify playlist searching & Reddit channel searching) 
+
+- Data from 2 server API’s (Open Weather & wger.de API's)
+- Uses Bulma CSS frameworks
+- Uses local stroage to store persistent data (user workout time & routines)
+- Polished UI
+- Includes user input functionality for searching API's (Spotify playlist searching & Reddit channel searching)

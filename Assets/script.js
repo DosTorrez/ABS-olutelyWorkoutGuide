@@ -73,6 +73,7 @@ saveBtn.addEventListener("click", function (event) {
     userEndSpan.textContent = end;
   }
 });
+
 //start of exercise API code
 //functionality for exercise search input
 var formSubmitHandler = function (event) {
