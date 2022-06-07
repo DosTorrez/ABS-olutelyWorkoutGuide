@@ -27,6 +27,10 @@ form {
   z-index: 99;
 }
 
+span {
+  text-align: center;
+}
+
 .project-title {
   display: flex;
   flex-direction: column;
@@ -35,6 +39,11 @@ form {
 }
 
 #app-title {
+  background: url(../Assets/images/workout-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 150px;
   margin-bottom: -10px;
 }
 
@@ -100,7 +109,7 @@ form {
   justify-content: space-between;
   flex-direction: column;
   align-content: center;
-  background-color:white;
+  background-color: white;
   margin: 30px;
   padding: 10px;
   border-radius: 8px;
@@ -129,6 +138,3 @@ form {
 .box {
   margin-bottom: 60px;
 }
-
-
-

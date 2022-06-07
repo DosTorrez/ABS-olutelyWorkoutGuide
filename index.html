@@ -25,7 +25,7 @@
 
     <aside class="workout-info-container">
       <!--Workout input cards-->
-      <h3 class="title is-3" id="workout-log">Workout Log:</h3>
+      <h3 class="title is-3 is-underlined" id="workout-log">Workout Log:</h3>
       <div class="card">
         <header class="card-header">
           <p class="card-header-title">Workout #1</p>
@@ -83,24 +83,30 @@
         </footer>
       </div>
       <!--workout time input-->
-      <h2 id="workout-time" class="subtitle is-5">Calculate Workout Time:</h2>
-      <form class="box">
+      <h2 id="workout-time" class="subtitle is-5 is-underlined">Calculate Workout Time:</h2>
+      <h3 id="24hour" class="subtitle is-6"> 24-hour scale used </h3>
+      <form class="box" id="box">
         <div class="field">
           <label class="label">Start Time : </label>
           <div class="control">
-            <input class="input" type="email" placeholder="12:00 pm">
+            <input id="startInput" name="startInput" class="input" type="text" step="1" value="" placeholder="12:00 pm">
           </div>
         </div>
       
         <div class="field">
           <label class="label">End Time : </label>
           <div class="control">
-            <input class="input" type="password" placeholder= "2:00 pm">
+            <input id="endInput" name="endInput" class="input" type="text" step="1" value="" placeholder= "2:00 pm">
           </div>
         </div>
-      
-        <button id="calculateBtn" class="button is-info">Calculate Workout Time</button>
+        <h2  class="subtitle is-6 is-underlined" >Last Workout Time Logged : </h2>
+        <p><strong>Total Workout Hours: </strong></p>
+        <p id="subResult" value=""></p>
+        <p><strong>Start Time : </strong><span id="startClock"></span></p>
+        <p><strong>End Time : </strong><span id="endClock"></span></p>
+        <button  id="calculateBtn" class="button is-info">Save Workout Time</button>
       </form>
+     
     </aside>
 
     <!--center column for exercise search & results-->
