@@ -7,10 +7,7 @@ h1 {
   background-color: rgb(138, 189, 255);
   background-position: 100%;
   color: black;
-<<<<<<< HEAD
   padding: 30px;
-=======
->>>>>>> 10ac0e0b7a00d81e01396c27223efdbc6392346d
 }
 
 h2 {
@@ -21,7 +18,6 @@ p {
   text-align: center;
 }
 
-<<<<<<< HEAD
 form {
   position: relative;
   z-index: 99;
@@ -35,13 +31,10 @@ form {
   font-size: 20px;
 }
 
-=======
->>>>>>> 10ac0e0b7a00d81e01396c27223efdbc6392346d
 .workout-info-container {
   justify-content: left;
   position: relative;
   float: left;
-<<<<<<< HEAD
   margin-left: 30px;
 }
 
@@ -52,13 +45,10 @@ form {
 .card-content {
   z-index: 99;
   position: relative;
-=======
->>>>>>> 10ac0e0b7a00d81e01396c27223efdbc6392346d
 }
 
 .card-footer {
   justify-content: right;
-<<<<<<< HEAD
   position: relative;
   z-index: 99;
 }
@@ -102,19 +92,3 @@ form {
 
 
 
-=======
-}
-
-.reddit-info {
-  justify-content: center;
-  display: block;
-  position: relative;
-  float: center;
-}
-
-.spotify-container {
-  justify-content: right;
-  position: relative;
-  float: right;
-}
->>>>>>> 10ac0e0b7a00d81e01396c27223efdbc6392346d
