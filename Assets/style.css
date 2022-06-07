@@ -31,13 +31,6 @@ span {
   text-align: center;
 }
 
-#banner {
-  background: url(../Assets/images/workout-banner.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 150px;
-}
-
 .project-title {
   display: flex;
   flex-direction: column;
@@ -47,6 +40,10 @@ span {
 
 #app-title {
   margin-bottom: -10px;
+  background: url(../Assets/images/workout-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 150px;
 }
 
 .dateTime {
