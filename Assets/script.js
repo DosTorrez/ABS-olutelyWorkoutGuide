@@ -70,7 +70,7 @@ var renderExercise = function (exercises) {
     var description = exercises[i].description;
     var descriptionEl = document.createElement('div')
     descriptionEl.setAttribute('class', 'descriptionStyling')
-    descriptionEl.textContent = description
+    descriptionEl.innerHTML = '<strong>' + description + '</strong>'
     exerciseCard.append(descriptionEl)
   }
 }
