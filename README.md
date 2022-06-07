@@ -39,7 +39,7 @@ WHEN I save the time to local storage
 THEN I will be able to see the total workout time presented on the page
 
 THIS APPLICATION HAS THE FOLLOWING PARAMETERS & FUNCTIONALITY:
-   * Data from 2 server API’s (Open Weather & wger.de API's)
+   * Data from 2 server API’s (Open Weather https://openweathermap.org/api & wger.de https://wger.de/api/v2/exercise/ API's)
    * Uses Bulma CSS frameworks
    * Uses local stroage to store persistent data (user workout time & routines)
    * Polished UI
