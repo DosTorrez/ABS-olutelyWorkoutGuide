@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-}  
+}
 
 html {
   background-color: rgb(138, 189, 255);
@@ -25,6 +25,12 @@ h2 {
 
 p {
   text-align: center;
+}
+
+p1 {
+  text-align: center;
+  font-style: italic;
+  font-size: 15px;
 }
 
 form {

@@ -2,14 +2,16 @@
 
 Live Link: https://dostorrez.github.io/ABS-olutelyWorkoutGuide/
 
-USER STORY: 
-  * As a gym goer/user, 
-  * I want an application that allows me to search for music,
-  * while being able to search & pull up fitness tips,
-  * so that I can guide myself through a successful workout,
-  * I also want to log my workout routine and total workout time,
-  * so that I can track my daily fitness/progress
- 
+USER STORY:
+
+- As a gym goer/user,
+- I want an application that allows me to look up the weather of the location I am in,
+- so that i am able to check weather conditons to workout outside,
+- I want to be able to search & pull up fitness tips,
+- so that I can guide myself through a successful workout,
+- I want to be able to log my workout routine and workout times,
+- so that I can track my daily fitness/progress
+
 ACCEPTANCE CRITERIA:
 
 GIVEN a fitness guide with a weather dashboard
@@ -39,8 +41,9 @@ WHEN I save the time to local storage
 THEN I will be able to see the total workout time presented on the page
 
 THIS APPLICATION HAS THE FOLLOWING PARAMETERS & FUNCTIONALITY:
-   * Data from 2 server API’s (Open Weather https://openweathermap.org/api & wger.de https://wger.de/api/v2/exercise/ API's)
-   * Uses Bulma CSS frameworks
-   * Uses local stroage to store persistent data (user workout time & routines)
-   * Polished UI
-   * Includes user input functionality for searching API's (Open Weather data & wger.de data searching) 
+
+- Data from 2 server API’s (Open Weather https://openweathermap.org/api & wger.de https://wger.de/api/v2/exercise/ API's)
+- Uses Bulma CSS frameworks
+- Uses local stroage to store persistent data (user workout time & routines)
+- Polished UI
+- Includes user input functionality for searching API's (Open Weather data & wger.de data searching)
