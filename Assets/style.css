@@ -191,6 +191,7 @@ span {
   margin-left: 200px;
   margin-bottom: 30px;
   max-width: 70%;
+  padding: 15px;
 }
 
 #workout-time {
@@ -202,6 +203,19 @@ span {
   margin-bottom: 60px;
 }
 
+.error {
+  font-style: italic;
+  font-size: 15px;
+  color: red;
+}
+
+#city-srch {
+  font-size: 20px;
+}
+
+#city-button {
+  font-size: 20px;
+}
 /* Media Query */
 
 /* 992px or smaller */
