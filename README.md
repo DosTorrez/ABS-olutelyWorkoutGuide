@@ -44,3 +44,13 @@ THIS APPLICATION HAS THE FOLLOWING PARAMETERS & FUNCTIONALITY:
    * Polished UI
    * Includes user input functionality for searching API's (Open Weather data & wger.de data searching) 
 
+
+![Screen Shot 2022-06-08 at 2 16 56 AM](https://user-images.githubusercontent.com/101853202/172567499-ecc95f45-0a63-4128-bfef-f49e21a092ab.png)
+
+![Screen Shot 2022-06-08 at 2 11 37 AM](https://user-images.githubusercontent.com/101853202/172566879-3f81e7de-c9b3-4e2c-995b-3bfc39e58e68.png)
+
+![Screen Shot 2022-06-08 at 2 12 07 AM](https://user-images.githubusercontent.com/101853202/172566899-f48b07e0-e1cc-4432-bffd-3f7319b15768.png)
+
+![Screen Shot 2022-06-08 at 2 12 34 AM](https://user-images.githubusercontent.com/101853202/172566938-503d47a7-36a2-4dc1-8ab7-c7d18c81bcad.png)
+
+![Screen Shot 2022-06-08 at 2 12 51 AM](https://user-images.githubusercontent.com/101853202/172566971-6dcdb8c2-86bd-4010-bd7d-f3e7d482ed41.png)
