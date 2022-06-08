@@ -31,7 +31,7 @@ p {
 p1 {
   text-align: center;
   font-style: italic;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 form {
@@ -95,10 +95,12 @@ span {
   align-items: center;
   margin-top: 15px;
   padding: 20px;
+  border-radius: 5px;
 }
 
 .card-header {
   background-color: rgb(195, 229, 145);
+  border-radius: 5px;
 }
 
 .card-header-title {
