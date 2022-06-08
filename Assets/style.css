@@ -28,7 +28,8 @@ h1 {
 }
 
 h2,
-h3 {
+h3,
+h4 {
   text-align: center;
   font-family: "Permanent Marker", cursive;
 }
@@ -157,11 +158,11 @@ span {
   margin-bottom: 30px;
 }
 
-#exercise-input {
+#exercise-input, #city-srch {
   font-size: 20px;
 }
 
-#exercise-button {
+#exercise-button, #city-button {
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 20px;
@@ -180,9 +181,9 @@ span {
   padding: 25px;
 }
 
-.nameStyling {
+.name-Styling {
   font-size: 30px;
-  color: var(--background);
+  color: rgb(228, 159, 228);
   align-self: center;
 }
 
@@ -201,13 +202,125 @@ span {
   text-align: center;
   align-items: center;
   justify-content: center;
-  border-style: solid;
-  border-color: var(--light);
-  border-radius: 10px;
-  margin-left: 200px;
-  margin-bottom: 30px;
   max-width: 70%;
-  padding: 15px;
+  padding: 30px;
+}
+
+.city-name-title {
+  font-size: 40px;
+}
+
+.search-container {
+  margin: 10px;
+}
+
+.weather-info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.nameStyling {
+  padding: 10px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  color: white;
+  font-size: 50px;
+}
+
+.tempStyling, .humidityStyling, .windStyling {
+  padding-left: 10px;
+  padding-bottom: 8px;
+  margin-bottom: 5px;
+  font-size: 23px;
+}
+
+.iconStyling {
+  align-self: center;
+  width: 60px;
+  height: 60px;
+}
+
+.uviStyling {
+  align-self:center;
+  font-size: 20px;
+}
+
+.low-risk {
+  background-color: rgb(86, 173, 86);
+  width: 120px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.mod-risk {
+  background-color: rgb(196, 207, 92);
+  width: 120px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.high-risk {
+  background-color: rgb(207, 92, 92);
+  width: 120px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.five-forecast-title {
+  font-size: 30px;
+  color: aliceblue;
+}
+
+.five-day-forecast-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.daily-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  background-color: rgb(228, 159, 228);
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  margin: 10px;
+}
+
+.date-styling {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.icon-styling {
+  margin-top: -20px;
+  width: 60px;
+  height: 60px;  
+}
+
+.temp-styling, .humidity-styling, .wind-styling {
+  padding-left: 10px;
+  padding-bottom: 8px;
+  margin-bottom: 5px;
+  font-size: 17px;
+}
+
+.date-styling {
+  font-size: 20px;
+}
+
+.icon-styling {
+  width: 60px;
+  height: 60px;  
+}
+
+.temp-styling, .humidity-styling, .wind-styling {
+  padding-left: 10px;
+  padding-bottom: 8px;
+  margin-bottom: 5px;
+  font-size: 17px;
 }
 
 #workout-time {
@@ -250,7 +363,6 @@ span {
   }
   .weather-container {
     width: auto;
-    background-color: var(--bright);
     width: 30%;
   }
 }

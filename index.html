@@ -98,35 +98,31 @@
             <input id="endInput" name="endInput" class="input" type="text" step="1" value="" placeholder= "16:00">
           </div>
         </div>
-        <h2  class="subtitle is-6 is-underlined" >Last Workout Time Logged : </h2>
+        <h2 class="subtitle is-6 is-underlined" >Last Workout Time Logged : </h2>
         <p><strong>Total Workout Hours: </strong></p>
         <p id="subResult" value=""></p>
         <p><strong>Start Time : </strong><span id="startClock"></span></p>
         <p><strong>End Time : </strong><span id="endClock"></span></p>
         <button  id="calculateBtn" class="button is-primary">Save Workout Time</button>
       </form>
-     
     </aside>
-<!--Weather functionality-->
-    <div class="weather-container">
-    <header>
-      <h2 class="title is-3">Weather for you Workout:</h2>
-    </header>
-    <h2 class="search-container">
-      <br>
-      <h2 class="title is-5"> Please enter your city name </h2>
-      <input type="search" id="city-srch" name="c-search" placeholder="EX: Denver"/> 
-      <br>
-      <button id="city-button" > Search </button>
-    </h2>
-    <div class="weather-info-container">
-    </div>
-    <div class="Forecast-Title"></div>
-    <div class="Forecast-Container">
-    </div>
 
-    </div>
-
+<!--right column for Weather functionality-->
+<div class="weather-container">
+<header>
+  <h3 class="title is-3" id="weather-header">Weather for Workout:</h3>
+</header>
+<div class="search-container">
+  <h4 class="title is-4"> Please enter your city name </h4>
+  <input class="input is-primary" id="city-srch" name="c-search" type="text" placeholder="Type city here">
+  <button class="button is-primary" id="city-button">Search</button>
+  </div>
+<div class="weather-info-container">
+</div>
+<div class="five-forecast-title"></div>
+<div class="five-day-forecast-container">
+</div>
+</div>
     <!--center column for exercise search & results-->
     <div class="exercise-info">
       <h3 class="title is-3" id="exercise-title">Search For Exercises!</h3>
@@ -135,8 +131,6 @@
       <button class="button is-primary" id="exercise-button">Search</button>
       <div id="exercise-results"></div>
     </div>
-
-    
     </div>
   </body>
   <!--Links-->
