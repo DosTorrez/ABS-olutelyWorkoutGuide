@@ -48,12 +48,20 @@ span {
 
 .project-title {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
 }
 
+#header-img-1, #header-img-2 {
+  max-width: 300px;
+  max-height: 300px;
+}
+
 #app-title {
+  display: flex;
+  flex-direction: column;
   min-height: 150px;
   margin-bottom: -40px;
   margin-top: 30px;
@@ -62,6 +70,7 @@ span {
 .dateTime {
   font-size: 35px;
   color: aliceblue;
+  margin-top: 20px;
 }
 
 .workout-info-container {
@@ -102,7 +111,7 @@ span {
 }
 
 .card-header {
-  background-color: rgb(195, 229, 145);
+  background-color: rgb(232, 205, 49);
   border-radius: 5px;
 }
 
@@ -157,7 +166,7 @@ span {
 
 .nameStyling {
   font-size: 30px;
-  color: rgb(0, 190, 165);
+  color: rgb(232, 205, 49);
   align-self: center;
 }
 
@@ -216,6 +225,8 @@ span {
     width: 70%;
   }
   .weather-container {
+    width: auto;
+    background-color: rgb(232, 205, 49);
     width: 30%;
     background-color: rgb(195, 229, 145);
   }
