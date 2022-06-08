@@ -1,19 +1,26 @@
+:root {
+  --background: rgb(138, 189, 255);
+  --light: aliceblue;
+  --text: black;
+  --bright: rgb(232, 205, 49);
+}
+
 * {
   box-sizing: border-box;
 }
 
 html {
-  background-color: rgb(138, 189, 255);
+  background-color: var(--background);
   height: 100%;
 }
 
 body {
-  background-color: rgb(138, 189, 255);
+  background-color: var(--background);
 }
 
 h1 {
   text-align: center;
-  background-color: rgb(138, 189, 255);
+  background-color: var(--background);
   background-position: 100%;
   color: black;
   padding: 30px;
@@ -74,7 +81,7 @@ span {
 
 .dateTime {
   font-size: 35px;
-  color: aliceblue;
+  color: var(--light);
   margin-top: 20px;
 }
 
@@ -119,7 +126,7 @@ span {
 }
 
 .card-header {
-  background-color: rgb(232, 205, 49);
+  background-color: var(--bright);
   border-radius: 5px;
 }
 
@@ -175,7 +182,7 @@ span {
 
 .nameStyling {
   font-size: 30px;
-  color: rgb(232, 205, 49);
+  color: var(--background);
   align-self: center;
 }
 
@@ -195,7 +202,7 @@ span {
   align-items: center;
   justify-content: center;
   border-style: solid;
-  border-color: aliceblue;
+  border-color: var(--light);
   border-radius: 10px;
   margin-left: 200px;
   margin-bottom: 30px;
@@ -210,12 +217,6 @@ span {
 
 .box {
   margin-bottom: 60px;
-}
-
-.error {
-  font-style: italic;
-  font-size: 15px;
-  color: red;
 }
 
 #city-srch {
@@ -249,9 +250,8 @@ span {
   }
   .weather-container {
     width: auto;
-    background-color: rgb(232, 205, 49);
+    background-color: var(--bright);
     width: 30%;
-    background-color: rgb(195, 229, 145);
   }
 }
 
@@ -271,6 +271,6 @@ span {
   }
   .exercise-info {
     width: 100%;
-    background: rgb(195, 229, 145);
+    background: var(--bright);
   }
 }
