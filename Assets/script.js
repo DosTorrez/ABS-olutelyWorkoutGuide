@@ -123,10 +123,10 @@ var renderExercise = function (exercises) {
     exerciseCard.setAttribute("class", "exercise-card");
     exerciseResults.append(exerciseCard);
     //functionality for displaying exercise name
-    var name = exercises[i].name;
+    var Exname = exercises[i].name;
     var nameEl = document.createElement("h4");
-    nameEl.setAttribute("class", "nameStyling");
-    nameEl.textContent = name;
+    nameEl.setAttribute("class", "name-Styling");
+    nameEl.textContent = Exname;
     exerciseCard.append(nameEl);
     //functionality for displaying
     var description = exercises[i].description;

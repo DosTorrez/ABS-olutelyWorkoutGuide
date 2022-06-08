@@ -98,7 +98,7 @@
             <input id="endInput" name="endInput" class="input" type="text" step="1" value="" placeholder= "16:00">
           </div>
         </div>
-        <h2  class="subtitle is-6 is-underlined" >Last Workout Time Logged : </h2>
+        <h2 class="subtitle is-6 is-underlined" >Last Workout Time Logged : </h2>
         <p><strong>Total Workout Hours: </strong></p>
         <p id="subResult" value=""></p>
         <p><strong>Start Time : </strong><span id="startClock"></span></p>
@@ -106,13 +106,14 @@
         <button  id="calculateBtn" class="button is-primary">Save Workout Time</button>
       </form>
     </aside>
+
 <!--right column for Weather functionality-->
 <div class="weather-container">
 <header>
   <h3 class="title is-3" id="weather-header">Weather for Workout:</h3>
 </header>
 <div class="search-container">
-  <h2> Please enter your city name. </h2>
+  <h4 class="title is-4"> Please enter your city name </h4>
   <input class="input is-primary" id="city-srch" name="c-search" type="text" placeholder="Type city here">
   <button class="button is-primary" id="city-button">Search</button>
   </div>
@@ -122,4 +123,19 @@
 <div class="five-day-forecast-container">
 </div>
 </div>
-
+    <!--center column for exercise search & results-->
+    <div class="exercise-info">
+      <h3 class="title is-3" id="exercise-title">Search For Exercises!</h3>
+      <p class="subtitle is-5" id="exercise-desc">Type one of the following terms to find exercise names & descriptions: <br> <b>Abs</b>,  <b>Arms</b>,  <b>Back</b>,  <b>Chest</b>, <b>Legs</b>, <b>Shoulders</b> </p>
+      <input class="input is-primary" id="exercise-input" type="text" placeholder="Type fitness term here" />
+      <button class="button is-primary" id="exercise-button">Search</button>
+      <div id="exercise-results"></div>
+    </div>
+    </div>
+  </body>
+  <!--Links-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src = "./Assets/script.js"></script>
+  </script>
+</html>
