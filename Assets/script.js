@@ -50,11 +50,12 @@ saveBtn.addEventListener("click", function (event) {
 
   var startTime = document.querySelector("#startInput").value;
   var endTime = document.querySelector("#endInput").value;
-  var results = document.querySelector("#subResult").value;
+  var results = document.querySelector("#subResult").textContent;
 
   localStorage.setItem("startInput", startTime);
   localStorage.setItem("endInput", endTime);
   localStorage.setItem("result", results);
+  // console.log(results);
 
   //print times on webpage
 
@@ -72,6 +73,7 @@ saveBtn.addEventListener("click", function (event) {
     userEndSpan.textContent = end;
   }
 });
+
 //start of exercise API code
 //functionality for exercise search input
 var formSubmitHandler = function (event) {
@@ -130,9 +132,10 @@ var renderExercise = function (exercises) {
     var description = exercises[i].description;
     var descriptionEl = document.createElement("div");
     descriptionEl.setAttribute("class", "descriptionStyling");
-    descriptionEl.textContent = description;
+    descriptionEl.innerHTML = description;
     exerciseCard.append(descriptionEl);
   }
 };
+
 exerciseBtn.onclick = formSubmitHandler;
 
