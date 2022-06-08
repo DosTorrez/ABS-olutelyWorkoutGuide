@@ -139,3 +139,40 @@ var renderExercise = function (exercises) {
 
 exerciseBtn.onclick = formSubmitHandler;
 
+//Workout log 
+
+//Workout button 1 
+var saveBtn1 = document.querySelector("#workoutlogsaveBtn1");
+
+saveBtn1?.addEventListener("click", function (event) {
+  event.preventDefault();
+
+  var Workoutinput = document.querySelector("#Workout1").value;
+  //console.log(Workoutinput);
+
+ localStorage.setItem("Workout 1", Workoutinput);
+}); 
+
+//Workout button 2 
+var saveBtn2 = document.querySelector("#workoutlogsaveBtn2");
+
+saveBtn2?.addEventListener("click", function (event) {
+  event.preventDefault();
+
+  var Workoutinput = document.querySelector("#Workout2").value;
+  //console.log(Workoutinput);
+
+ localStorage.setItem("Workout 2", Workoutinput);
+}); 
+
+//Workout button 3 
+var saveBtn3 = document.querySelector("#workoutlogsaveBtn3");
+
+saveBtn3?.addEventListener("click", function (event) {
+  event.preventDefault();
+
+  var Workoutinput = document.querySelector("#Workout3").value;
+  //console.log(Workoutinput);
+
+ localStorage.setItem("Workout 3", Workoutinput);
+}); 
