@@ -17,11 +17,13 @@ h1 {
   background-position: 100%;
   color: black;
   padding: 30px;
+  font-family: "Permanent Marker", cursive;
 }
 
 h2,
 h3 {
   text-align: center;
+  font-family: "Permanent Marker", cursive;
 }
 
 p {
@@ -95,7 +97,7 @@ span {
   align-items: center;
   margin-top: 15px;
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .card-header {
@@ -117,6 +119,10 @@ span {
   max-width: 70%;
   margin-left: 200px;
   padding-left: 30px;
+}
+
+.box {
+  border-radius: 10px;
 }
 
 #exercise-title {
@@ -171,14 +177,10 @@ span {
   justify-content: center;
   border-style: solid;
   border-color: aliceblue;
+  border-radius: 10px;
   margin-left: 200px;
   margin-bottom: 30px;
   max-width: 70%;
-  /* 
- 
-  
-  margin-right: 30px;
-  margin-top: -240px; */
 }
 
 #workout-time {
