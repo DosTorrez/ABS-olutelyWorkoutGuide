@@ -151,6 +151,7 @@ span {
   display: flex;
   position: relative;
   flex-wrap: wrap;
+  text-align: center;
   align-items: center;
   flex-direction: column;
   float: right;
@@ -176,10 +177,10 @@ span {
     min-width: 992px;
   }
   .exercise-info {
-    width: auto;
+    width: 50%;
   }
   .weather-container {
-    width: auto;
+    width: 50%;
     background-color: rgb(195, 229, 145);
   }
 }
