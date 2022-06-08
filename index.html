@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
@@ -16,8 +19,11 @@
   <body>
     <!--title of application-->
     <header class="project-title">
-      <h1 class="title is-1" id="app-title"> 🥑 <em>Abs</em>-olutely Workout Guide 🥑 </h1>
-      <div class="dateTime"></div>
+      <img id="header-img-1" src="./Assets/images/1.png">
+      <h1 class="title is-1" id="app-title">Abs-olutely Workout Guide
+        <div class="dateTime"></div>
+      </h1>
+      <img id="header-img-2" src="./Assets/images/3.png">
     </header>
 
     <!--left column for workouts and workout times-->
@@ -32,7 +38,6 @@
             <span class="icon">
               <i class="fas fa-angle-down" aria-hidden="true"></i>
             </span>
-          </button>
         </header>
         <div class="card-content">
           <input class="input" id="Workout1" type="text" placeholder="Type Workout Here" />
@@ -77,7 +82,7 @@
       </div>
       <!--workout time input-->
       <h2 id="workout-time" class="title is-3">Calculate Workout Time:</h2>
-      <p id="24hour" class="subtitle is-6"> 24-hour scale used </p>
+      <p2 id="hour24" class="subtitle is-6"> 24-hour scale used </p2>
       <p1>*Please round up to the nearest hour*</p1>
       <form class="box" id="box">
         <div class="field">
@@ -93,30 +98,39 @@
             <input id="endInput" name="endInput" class="input" type="text" step="1" value="" placeholder= "16:00">
           </div>
         </div>
-        <h2  class="subtitle is-6 is-underlined" >Last Workout Time Logged : </h2>
+        <h2 class="subtitle is-6 is-underlined" >Last Workout Time Logged : </h2>
         <p><strong>Total Workout Hours: </strong></p>
         <p id="subResult" value=""></p>
         <p><strong>Start Time : </strong><span id="startClock"></span></p>
         <p><strong>End Time : </strong><span id="endClock"></span></p>
-        <button  id="calculateBtn" class="button is-info">Save Workout Time</button>
+        <button  id="calculateBtn" class="button is-primary">Save Workout Time</button>
       </form>
-     
     </aside>
+
 <!--right column for Weather functionality-->
-<aside class="weather-container">
-  <h3 class="title is-3" id="weather-title">Today's Weather</h3>
-  <div class ="weather-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem unde sapiente architecto minima temporibus adipisci id repellat odio velit corrupti exercitationem illum officiis voluptatum, ullam facere neque eius? Enim, deleniti!</div>
-</aside>
+<div class="weather-container">
+<header>
+  <h3 class="title is-3" id="weather-header">Weather for Workout:</h3>
+</header>
+<div class="search-container">
+  <h4 class="title is-4"> Please enter your city name </h4>
+  <input class="input is-primary" id="city-srch" name="c-search" type="text" placeholder="Type city here">
+  <button class="button is-primary" id="city-button">Search</button>
+  </div>
+<div class="weather-info-container">
+</div>
+<div class="five-forecast-title"></div>
+<div class="five-day-forecast-container">
+</div>
+</div>
     <!--center column for exercise search & results-->
     <div class="exercise-info">
       <h3 class="title is-3" id="exercise-title">Search For Exercises!</h3>
-      <h2 class="subtitle is-5" id="exercise-desc">Type one of the following terms to find exercise names & descriptions: <br> <b>Abs</b>,  <b>Arms</b>,  <b>Back</b>,  <b>Chest</b>, <b>Legs</b>, <b>Shoulders</b> </h2>
+      <p class="subtitle is-5" id="exercise-desc">Type one of the following terms to find exercise names & descriptions: <br> <b>Abs</b>,  <b>Arms</b>,  <b>Back</b>,  <b>Chest</b>, <b>Legs</b>, <b>Shoulders</b> </p>
       <input class="input is-primary" id="exercise-input" type="text" placeholder="Type fitness term here" />
       <button class="button is-primary" id="exercise-button">Search</button>
       <div id="exercise-results"></div>
     </div>
-
-    
     </div>
   </body>
   <!--Links-->
