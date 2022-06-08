@@ -62,10 +62,15 @@ span {
 }
 
 .workout-info-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: left;
   position: relative;
   float: left;
-  margin-left: 30px;
+  margin-left: 70px;
+  max-width: 30%;
+  padding-right: 50px;
 }
 
 #workout-log {
@@ -104,13 +109,12 @@ span {
 .exercise-info {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: center;
   flex-direction: column;
-  float: center;
-  margin-left: 360px;
-  max-width: 600px;
-  margin-top: 55px;
+  justify-content: space-evenly;
+  align-content: center;
+  max-width: 70%;
+  margin-left: 200px;
+  padding-left: 30px;
 }
 
 #exercise-title {
@@ -157,19 +161,22 @@ span {
 
 .weather-container {
   display: flex;
+  flex-direction: column;
   position: relative;
   flex-wrap: wrap;
   text-align: center;
   align-items: center;
-  flex-direction: column;
+  justify-content: center;
   border-style: solid;
   border-color: aliceblue;
-  position: absolute;
-  float: right;
-  justify-content: right;
-  margin-left: 1000px;
+  margin-left: 200px;
+  margin-bottom: 30px;
+  max-width: 70%;
+  /* 
+ 
+  
   margin-right: 30px;
-  margin-top: -240px;
+  margin-top: -240px; */
 }
 
 #workout-time {
@@ -185,7 +192,11 @@ span {
 
 /* 992px or smaller */
 @media screen and (max-width: 992px) {
-  header {
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+  header .project-title {
     justify-content: center;
   }
 
@@ -207,7 +218,12 @@ span {
 
 /* 768px or smaller */
 @media screen and (max-width: 768px) {
-  header {
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header .project-title {
     justify-content: center;
   }
 
