@@ -136,4 +136,6 @@ var renderExercise = function (exercises) {
     exerciseCard.append(descriptionEl);
   }
 };
+
 exerciseBtn.onclick = formSubmitHandler;
+
