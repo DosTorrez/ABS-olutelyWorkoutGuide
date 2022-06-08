@@ -9,7 +9,7 @@ var exerciseBtn = document.querySelector("#exercise-button");
 //functionality for moment & time/date display
 var update = function () {
   date = moment(new Date());
-  dateTime.html(date.format("dddd, MMMM Do YYYY, hh:mm"));
+  dateTime.html(date.format("dddd, MMMM Do YYYY, h:mm a"));
 };
 
 $(document).ready(function () {
