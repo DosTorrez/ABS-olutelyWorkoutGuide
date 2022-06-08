@@ -39,6 +39,7 @@ p1 {
 form {
   position: relative;
   z-index: 99;
+  margin-left: 30px;
 }
 
 span {
