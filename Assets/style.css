@@ -19,7 +19,8 @@ h1 {
   padding: 30px;
 }
 
-h2 {
+h2,
+h3 {
   text-align: center;
 }
 
@@ -161,6 +162,8 @@ span {
   text-align: center;
   align-items: center;
   flex-direction: column;
+  border-style: solid;
+  border-color: aliceblue;
   position: absolute;
   float: right;
   justify-content: right;
@@ -180,15 +183,39 @@ span {
 
 /* Media Query */
 
+/* 992px or smaller */
 @media screen and (max-width: 992px) {
+  header {
+    justify-content: center;
+  }
+
+  h1 {
+    justify-content: center;
+  }
+
   body {
     min-width: 992px;
   }
   .exercise-info {
-    width: 50%;
+    width: 70%;
   }
   .weather-container {
-    width: 50%;
+    width: 30%;
     background-color: rgb(195, 229, 145);
+  }
+}
+
+/* 768px or smaller */
+@media screen and (max-width: 768px) {
+  header {
+    justify-content: center;
+  }
+
+  h1 {
+    justify-content: center;
+  }
+  .exercise-info {
+    width: 100%;
+    background: rgb(195, 229, 145);
   }
 }
