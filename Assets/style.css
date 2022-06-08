@@ -2,14 +2,25 @@
   box-sizing: border-box;
 }
 
+html {
+  background-color: rgb(138, 189, 255);
+  height: 100%;
+}
+
+body {
+  background-color: rgb(138, 189, 255);
+}
+
 h1 {
   text-align: center;
   background-color: rgb(138, 189, 255);
   background-position: 100%;
   color: black;
+  padding: 30px;
 }
 
-h2 {
+h2,
+h3 {
   text-align: center;
 }
 
@@ -17,28 +28,64 @@ p {
   text-align: center;
 }
 
-<<<<<<< HEAD
+p1 {
+  text-align: center;
+  font-style: italic;
+  font-size: 13px;
+}
+
 form {
   position: relative;
   z-index: 99;
-<<<<<<< HEAD
   margin-left: 30px;
+}
+
+span {
+  text-align: center;
+}
+
+.project-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+#app-title {
+  min-height: 150px;
+  margin-bottom: -40px;
+  margin-top: 30px;
+}
+
+.dateTime {
+  font-size: 35px;
+  color: aliceblue;
+}
+
+.workout-info-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: left;
+  position: relative;
+  float: left;
+  margin-left: 70px;
+  max-width: 30%;
+  padding-right: 50px;
 }
 
 #workout-log {
   margin-top: 20px;
+  align-self: center;
 }
 
 .card-content {
   z-index: 99;
   position: relative;
-=======
->>>>>>> 10ac0e0b7a00d81e01396c27223efdbc6392346d
 }
 
 .card-footer {
   justify-content: right;
-<<<<<<< HEAD
   position: relative;
   z-index: 99;
 }
@@ -49,52 +96,145 @@ form {
   align-items: center;
   margin-top: 15px;
   padding: 20px;
+  border-radius: 5px;
 }
 
-.reddit-info {
+.card-header {
+  background-color: rgb(195, 229, 145);
+  border-radius: 5px;
+}
+
+.card-header-title {
   display: flex;
+  align-items: center;
+}
+
+.exercise-info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  max-width: 70%;
+  margin-left: 200px;
+  padding-left: 30px;
+}
+
+#exercise-title {
+  display: flex;
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+#exercise-input {
+  font-size: 20px;
+}
+
+#exercise-button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.exercise-card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-content: center;
+  background-color: white;
+  opacity: 0.7;
+  margin: 30px;
+  padding: 10px;
+  border-radius: 8px;
+  padding: 25px;
+}
+
+.nameStyling {
+  font-size: 30px;
+  color: rgb(0, 190, 165);
+  align-self: center;
+}
+
+.descriptionStyling {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin: 10px;
+}
+
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
   justify-content: center;
-  flex-direction: column;
-  position: relative;
-  float: center;
-  margin-left: 410px;
-  max-width: 750px;
-}
-
-.spotify-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: right;
-  position: relative;
-  float: right;
-  margin-left: 1250px;
+  border-style: solid;
+  border-color: aliceblue;
+  margin-left: 200px;
+  margin-bottom: 30px;
+  max-width: 70%;
+  /* 
+ 
+  
   margin-right: 30px;
-  margin-top: -1230px;
+  margin-top: -240px; */
 }
 
 #workout-time {
   margin-top: 40px;
+  font-size: 25px;
 }
 
 .box {
   margin-bottom: 60px;
 }
 
+/* Media Query */
 
+/* 992px or smaller */
+@media screen and (max-width: 992px) {
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+  header .project-title {
+    justify-content: center;
+  }
 
-=======
+  h1 {
+    justify-content: center;
+  }
+
+  body {
+    min-width: 992px;
+  }
+  .exercise-info {
+    width: 70%;
+  }
+  .weather-container {
+    width: 30%;
+    background-color: rgb(195, 229, 145);
+  }
 }
 
-.reddit-info {
-  justify-content: center;
-  display: block;
-  position: relative;
-  float: center;
-}
+/* 768px or smaller */
+@media screen and (max-width: 768px) {
+  div {
+    display: flex;
+    flex-direction: column;
+  }
 
-.spotify-container {
-  justify-content: right;
-  position: relative;
-  float: right;
+  header .project-title {
+    justify-content: center;
+  }
+
+  h1 {
+    justify-content: center;
+  }
+  .exercise-info {
+    width: 100%;
+    background: rgb(195, 229, 145);
+  }
 }
->>>>>>> 10ac0e0b7a00d81e01396c27223efdbc6392346d
