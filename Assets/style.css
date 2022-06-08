@@ -7,10 +7,6 @@ h1 {
   background-color: rgb(138, 189, 255);
   background-position: 100%;
   color: black;
-<<<<<<< HEAD
-  padding: 30px;
-=======
->>>>>>> 10ac0e0b7a00d81e01396c27223efdbc6392346d
 }
 
 h2 {
@@ -25,22 +21,6 @@ p {
 form {
   position: relative;
   z-index: 99;
-}
-
-.project-title {
-  margin-bottom: 30px;
-}
-
-#dateTime {
-  font-size: 20px;
-}
-
-=======
->>>>>>> 10ac0e0b7a00d81e01396c27223efdbc6392346d
-.workout-info-container {
-  justify-content: left;
-  position: relative;
-  float: left;
 <<<<<<< HEAD
   margin-left: 30px;
 }
