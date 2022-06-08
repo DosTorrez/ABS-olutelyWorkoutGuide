@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
@@ -24,9 +27,10 @@
     </header>
 
     <!--left column for workouts and workout times-->
-
+    <div>
     <aside class="workout-info-container">
       <!--Workout input cards-->
+
       <h3 class="title is-3" id="workout-log">Workout Log:</h3>
       <div class="card">
         <header class="card-header">
@@ -35,14 +39,12 @@
             <span class="icon">
               <i class="fas fa-angle-down" aria-hidden="true"></i>
             </span>
-          </button>
         </header>
         <div class="card-content">
-          <input class="input" type="text" placeholder="Type Workout Here" />
+          <input class="input" id="Workout1" type="text" placeholder="Type Workout Here" />
         </div>
         <footer class="card-footer">
-          <button class="button is-success is-outlined">Save</button>
-          <button class="button is-danger is-outlined">Delete</button>
+          <button id="workoutlogsaveBtn1" class="button is-success is-outlined">Save</button> 
         </footer>
       </div>
 
@@ -56,11 +58,10 @@
           </button>
         </header>
         <div class="card-content">
-          <input class="input" type="text" placeholder="Type Workout Here" />
+          <input class="input" id="Workout2"  type="text" placeholder="Type Workout Here" />
         </div>
         <footer class="card-footer">
-          <button class="button is-success is-outlined">Save</button>
-          <button class="button is-danger is-outlined">Delete</button>
+          <button id="workoutlogsaveBtn2" class="button is-success is-outlined">Save</button>
         </footer>
       </div>
 
@@ -74,28 +75,28 @@
           </button>
         </header>
         <div class="card-content">
-          <input class="input" type="text" placeholder="Type Workout Here" />
+          <input class="input" id="Workout3" type="text" placeholder="Type Workout Here" />
         </div>
         <footer class="card-footer">
-          <button class="button is-success is-outlined">Save</button>
-          <button class="button is-danger is-outlined">Delete</button>
+          <button id="workoutlogsaveBtn3" class="button is-success is-outlined">Save</button>
         </footer>
       </div>
       <!--workout time input-->
       <h2 id="workout-time" class="title is-3">Calculate Workout Time:</h2>
       <p id="24hour" class="subtitle is-6"> 24-hour scale used </p>
+      <p1>*Please round up to the nearest hour*</p1>
       <form class="box" id="box">
         <div class="field">
           <label class="label">Start Time : </label>
           <div class="control">
-            <input id="startInput" name="startInput" class="input" type="text" step="1" value="" placeholder="12:00 pm">
+            <input id="startInput" name="startInput" class="input" type="text" step="1" value="" placeholder="14:00">
           </div>
         </div>
       
         <div class="field">
           <label class="label">End Time : </label>
           <div class="control">
-            <input id="endInput" name="endInput" class="input" type="text" step="1" value="" placeholder= "2:00 pm">
+            <input id="endInput" name="endInput" class="input" type="text" step="1" value="" placeholder= "16:00">
           </div>
         </div>
         <h2  class="subtitle is-6 is-underlined" >Last Workout Time Logged : </h2>
@@ -107,22 +108,33 @@
       </form>
      
     </aside>
+<!--right column for Weather functionality-->
+<header>
+  <h1>Weather for you Workout:</h1>
+</header>
+<h2 class="search-container">
+  <h2> Please enter your city name. </h2>
+  <input type="search" id="city-srch" name="c-search"> 
+  <button id="city-button"> Search </button>
+</h2>
+<div class="weather-info-container">
+</div>
+<div class="Forecast-Title"></div>
+<div class="Forecast-Container">
+</div>
 
+<div id="msg" class="error"> Please enter city name. </div>
     <!--center column for exercise search & results-->
     <div class="exercise-info">
       <h3 class="title is-3" id="exercise-title">Search For Exercises!</h3>
-      <h2 class="subtitle is-5" id="exercise-desc">Type one of the following terms to find exercise names & descriptions: <br> <b>Abs</b>,  <b>Arms</b>,  <b>Back</b>,  <b>Chest</b>, <b>Legs</b>, <b>Shoulders</b> </h2>
+      <p class="subtitle is-5" id="exercise-desc">Type one of the following terms to find exercise names & descriptions: <br> <b>Abs</b>,  <b>Arms</b>,  <b>Back</b>,  <b>Chest</b>, <b>Legs</b>, <b>Shoulders</b> </p>
       <input class="input is-primary" id="exercise-input" type="text" placeholder="Type fitness term here" />
       <button class="button is-primary" id="exercise-button">Search</button>
       <div id="exercise-results"></div>
     </div>
 
-    <!--right column for Weather functionality-->
-    <aside class="weather-container">
-      <h3 class="title is-3" id="weather-title">Today's Weather</h3>
-      <div class ="weather-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem unde sapiente architecto minima temporibus adipisci id repellat odio velit corrupti exercitationem illum officiis voluptatum, ullam facere neque eius? Enim, deleniti!</div>
-    </aside>
-
+    
+    </div>
   </body>
   <!--Links-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
