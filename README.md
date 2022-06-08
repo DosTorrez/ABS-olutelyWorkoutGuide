@@ -28,11 +28,7 @@ WHEN I log my workout routines for the day
 
 THEN my workout will be saved into local storage
 
-WHEN I save my workout into local storage
-
-THEN I will be able to see it printed out on the page
-
-WHEN I type in my start and end time of my workout
+WHEN I type in the start and end time of my workout
 
 THEN I am able to see the calculated time and save it to local storage
 
