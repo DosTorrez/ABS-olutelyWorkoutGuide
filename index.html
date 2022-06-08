@@ -27,10 +27,6 @@
     <div>
     <aside class="workout-info-container">
       <!--Workout input cards-->
-
-      <h2 class="subtitle is-5" id="workout-log">Workout Log : </h2>
-
-=======
       <h3 class="title is-3" id="workout-log">Workout Log:</h3>
       <div class="card">
         <header class="card-header">
@@ -109,21 +105,25 @@
      
     </aside>
 <!--right column for Weather functionality-->
-<header>
-  <h1>Weather for you Workout:</h1>
-</header>
-<h2 class="search-container">
-  <h2> Please enter your city name. </h2>
-  <input type="search" id="city-srch" name="c-search"> 
-  <button id="city-button"> Search </button>
-</h2>
-<div class="weather-info-container">
-</div>
-<div class="Forecast-Title"></div>
-<div class="Forecast-Container">
-</div>
+    <div class="weather-container">
+    <header>
+      <h2 class="title is-3">Weather for you Workout:</h2>
+    </header>
+    <h2 class="search-container">
+      <br>
+      <h2 class="title is-5"> Please enter your city name </h2>
+      <input type="search" id="city-srch" name="c-search" placeholder="EX: Denver"/> 
+      <br>
+      <button id="city-button" > Search </button>
+    </h2>
+    <div class="weather-info-container">
+    </div>
+    <div class="Forecast-Title"></div>
+    <div class="Forecast-Container">
+    </div>
 
-<div id="msg" class="error"> Please enter city name. </div>
+    </div>
+
     <!--center column for exercise search & results-->
     <div class="exercise-info">
       <h3 class="title is-3" id="exercise-title">Search For Exercises!</h3>
